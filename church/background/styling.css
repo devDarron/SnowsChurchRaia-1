@@ -1,0 +1,95 @@
+/*styling.css*/
+
+/*
+////NAVIGATION AND BG IMAGE//////
+*/
+
+html,
+body{
+    height: 100%;
+}
+.navbar{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(to right, rgba(23, 56, 122, 0.5), rgba(47, 147, 158, 0.5), rgba(122, 45, 156, 0.5), rgba(158, 36, 77, 0.5));
+}
+
+.nav-item a:hover {
+            border: 1px solid black;
+            cursor: pointer;
+}
+
+.bgimg{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/msid-51991127,width-96,height-65.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+
+.headerset{
+    padding-top: 350px;
+}
+
+.headerset h2{
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+.headerset h1{
+    font-weight: bold;
+    font-size: 45px
+}
+
+
+/*
+////////// AT YOUR SERVICE ///////////////////      
+*/
+
+.atyourservice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicerow{
+    padding-top: 50px;
+}
+
+/*
+///////HISTORY//////
+*/
+
+.history{
+    padding-top: 10px;
+}
+
+/*
+//////SERVICES WE OFFER////
+*/
+
+.servicesoffered{
+    padding-top: 50px;
+}
+
+.card{
+    width: 100%;
+    margin-top: 40px
+}
+
+@media screen and (min-width: 1000px) {
+  div.history {
+    padding-top: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.history h5{
+      font-size: 17px;
+}
+    
+@media screen and (max-width: 400px) {
+  div.card-body p{
+      font-size: 10px;
+}
+    
+
